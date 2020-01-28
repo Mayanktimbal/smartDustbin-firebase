@@ -19,9 +19,9 @@ int agalecho=16;// D0  front echo pin
 
 
 long duration;
-int distance;
-long durationagal;
-int distanceagal;
+int distance; // will store height of garbage in dustbin
+long durationagal; 
+int distanceagal; // will store front-distance
 String distancefire;
 Servo servo1;
 Servo servo2;
@@ -104,7 +104,7 @@ Serial.println(distance);
 
   delay(1000);
   
-   Firebase.setString("Database/height",distancefire);    
+   Firebase.setString("Database/height",distancefire);     // set garbage level in firebase database
     delay(1000);
     
   }
