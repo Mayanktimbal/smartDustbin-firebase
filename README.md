@@ -8,5 +8,8 @@ This is extension of our smartdustbin,Here i have connected my dustbin with fire
 <br>-> 2 Ultrasonic Sensors
 <br>-> Firebase realtime database with secretkey 
 
+<h2>Link</h2>
+<br>https://youtu.be/L7zh0HE1Iyg
+
 
 
